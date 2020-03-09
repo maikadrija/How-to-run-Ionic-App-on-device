@@ -1,0 +1,17 @@
+//  How to run Ionic App on Android and iOS
+//
+//   iOS:
+
+ionic cordova prepare ios
+
+// Open the main config.xml file and modify the id attribute of the root element, <widget>.
+
+cordova plugin save && cordova platform rm ios && cordova platform add ios
+
+ionic cordova prepare ios
+
+//  Open Xcode. Use **File** » **Open** and locate the app. Open the app's platforms/ios directory.
+//  Define the Developer Team for the App
+//  Choose Simulator or connect iPhone to Mac and press run
+
+//Note: After changes to the app you have to rerun this command: *ionic cordova prepare ios
