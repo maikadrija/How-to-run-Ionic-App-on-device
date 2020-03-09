@@ -33,3 +33,11 @@ Note: After changes to the app you have to rerun this command: * $ ionic cordova
 3. *Start the Android Simulator or connect Android Device to Computer.*
 
 4. $ ionic cordova run android -l
+
+
+
+
+**********************
+ 
+https://ionicframework.com/docs/building/ios
+https://ionicframework.com/docs/building/android
